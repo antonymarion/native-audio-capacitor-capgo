@@ -5,10 +5,10 @@
   "author": "Max <bazuka5801@mail.ru>",
   "private": true,
   "dependencies": {
-    "@capacitor/cli": "^3.0.1",
-    "@capacitor/core": "^3.0.1",
-    "@capacitor/android": "^3.0.1",
-    "@capacitor/ios": "^3.0.1",
-    "@capacitor-community/native-audio": "^3.0.1"
+    "@capacitor/cli": "4.8.0",
+    "@capacitor/core": "4.8.0",
+    "@capacitor/android": "4.8.0",
+    "@capacitor/ios": "4.7.3",
+    "@capgo/native-audio": "^5.1.19"
   }
 }

@@ -1,6 +1,6 @@
 [
 	{
-		"pkg": "@capacitor-community/native-audio",
+		"pkg": "@capgo/native-audio",
 		"classpath": "com.getcapacitor.community.audio.NativeAudio"
 	}
 ]

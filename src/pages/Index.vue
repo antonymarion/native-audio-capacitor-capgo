@@ -21,7 +21,7 @@
 </template>
 
 <script>
-import {NativeAudio} from '@capacitor-community/native-audio'
+import {NativeAudio} from '@capgo/native-audio'
 export default {
   name: 'PageIndex',
   data: () => ({
@@ -30,15 +30,15 @@ export default {
   }),
   mounted() {
     setInterval(() => {
-      this.getCurrentTime()
-      this.getDuration()
-    }, 100)
+      //this.getCurrentTime()
+      //this.getDuration()
+    }, 1000)
   },
   methods: {
     preload() {
       NativeAudio.preload({
         assetId: "fire",
-        assetPath: "fire.mp3"
+        assetPath: "sounds/fire.mp3"
       })
     },
     play() {
