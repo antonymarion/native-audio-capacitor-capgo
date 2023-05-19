@@ -1,9 +1,9 @@
-import { CreateApp }  from 'vue'
+import Vue from 'vue'
 import VueRouter from 'vue-router'
 
 import routes from './routes'
 
-CreateApp(App).use(VueRouter)
+Vue.use(VueRouter)
 
 /*
  * If not building with SSR mode, you can
