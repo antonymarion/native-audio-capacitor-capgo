@@ -5,6 +5,6 @@
 	"npmClient": "yarn",
 	"webDir": "www",
 	"server": {
-		"url": "http://192.168.1.134:8081"
+		"url": "http://172.27.217.173:8080"
 	}
 }
